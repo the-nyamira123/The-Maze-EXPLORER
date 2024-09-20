@@ -52,14 +52,13 @@ gcc -Wall -Werror -Wextra -pedantic ./src/*.c -IC:\MinGW\include\SDL2 -LC:\MinGW
 After compiling, ensure that SDL2.dll is either in the same directory as your compiled executable or in a directory included in your system's PATH.
 You can now run your program using ./maze (or maze.exe on Windows).
 
-## Demo
-
-![The Maze Demo](./images/demo.gif)
-
-
-
 
 ## Flowchart
 
 ![The Maze Flow Chart](https://i.imgur.com/t0MxNni.png)
+
+## Demo
+
+![The Maze Demo](./images/demo.gif)
+
 
