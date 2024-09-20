@@ -56,6 +56,9 @@ You can now run your program using ./maze (or maze.exe on Windows).
 
 ![The Maze Demo](./images/demo.gif)
 
+
+
+
 ## Flowchart
 
 ![The Maze Flow Chart](https://i.imgur.com/t0MxNni.png)
