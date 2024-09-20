@@ -1,45 +1,47 @@
-# The Maze
+# The-Maze-EXPLORER
 
-The Maze is a 3D Maze game that uses ray casting to render a 2D map into a 3D navigable world!
+The Maze Explorer
+The Maze Explorer is a 3D maze game that uses raycasting to transform a 2D map into a fully navigable 3D world.
 
-The Maze was written was written in C ussing SDL2 library. Deveploment was performed using Ubuntu 14.04 LTS - gcc (Ubuntu 4.8.4-2ubuntu1~14.04) 4.8.4
+The game is built in C using the SDL2 library. Development was primarily done on Ubuntu 14.04 LTS using GCC (version 4.8.4-2ubuntu1~14.04).
 
 ## About SDL2
 
-Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is used by video playback software, emulators, and popular games including Valve's award winning catalog and many Humble Bundle games.
+SDL2 (Simple DirectMedia Layer) is a cross-platform development library that provides low-level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is widely used in video playback software, emulators, and several popular games, including Valve's award-winning catalog and many Humble Bundle games.
 
-### Setup SDL2
+### Setting Up SDL2 on Windows
 
-To set up SDL2 development libraries on a Windows system using MinGW or a similar environment, follow these steps:
+To configure SDL2 development libraries on a Windows machine (using MinGW or a similar environment), follow these steps:
 
-1. Download SDL2 Development Libraries
+Download SDL2 Development Libraries
+Head over to the official SDL2 website and download the SDL2 development libraries for Windows. If using MinGW, you'll likely need the SDL2-devel-2.x.x-mingw.tar.gz package.
 
- Go to the SDL2 official website.
- Download the development libraries for Windows. Typically, you'll want the "SDL2-devel-2.x.x-mingw.tar.gz" package if you are using MinGW.
+Extract the SDL2 Package
+Use tools like 7-Zip or WinRAR to extract the SDL2-devel-2.x.x-mingw.tar.gz archive. Once extracted, you'll have folders like include, lib, and bin.
 
-2. Extract the SDL2 Package
+Configure SDL2 for MinGW
 
-    Extract the downloaded SDL2-devel-2.x.x-mingw.tar.gz archive using a tool like 7-Zip or WinRAR.
-    After extracting, you should see folders such as include, lib, and bin.
+Header Files: Copy the contents of the include folder (SDL2 headers) into the MinGW include directory, usually located at C:\MinGW\include.
+Library Files: Copy the files from the lib folder to MinGW’s lib directory, usually at C:\MinGW\lib.
+DLL Files: Place the SDL2.dll from the bin folder either in the same directory as your executable or in a system path location accessible by the program.
 
-3. Set Up SDL2 for MinGW
-
-    Copy Files:
-        Include Files: Copy the contents of the include folder (which contains the SDL2 headers) to the MinGW include directory, typically located at C:\MinGW\include.
-        Library Files: Copy the contents of the lib folder to the MinGW library directory, typically located at C:\MinGW\lib.
-        DLL Files: Copy the SDL2.dll file from the bin folder to a location where your executable can access it (e.g., in the same directory as your compiled program or in the system path).
+  
 
 ## Instalation
 
 ```sh
-git clone https://github.com/Giddy-K/The-Maze.git
+git clone https://github.com/the-nyamira123/The-Maze-EXPLORER.git
 ```
 
 ## Usage
 
-* Execute ./maze or type make run
-* Use up and down arrow keys to move forward and backward (keys w and s serve the same function)
-* Use right and left arrow keys to turn the camera arround (keys d and a serve the same function)
+To run the game:
+
+Execute the binary with ./maze or type make run.
+Controls:
+
+Move: Use the up/down arrow keys or W/S keys.
+Rotate Camera: Use the left/right arrow keys or A/D keys.
 
 ## Compilation
 
@@ -50,10 +52,11 @@ gcc -Wall -Werror -Wextra -pedantic ./src/*.c -IC:\MinGW\include\SDL2 -LC:\MinGW
 After compiling, ensure that SDL2.dll is either in the same directory as your compiled executable or in a directory included in your system's PATH.
 You can now run your program using ./maze (or maze.exe on Windows).
 
+## Demo
+
+![The Maze Demo](./images/demo.gif)
+
 ## Flowchart
 
 ![The Maze Flow Chart](https://i.imgur.com/t0MxNni.png)
 
-## Demo
-
-![The Maze Demo](./images/demo.gif)
