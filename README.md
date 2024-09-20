@@ -1,4 +1,3 @@
-
 The-Maze-EXPLORER
 The Maze Explorer is a 3D maze game that uses raycasting to transform a 2D map into a fully navigable 3D world.
 
