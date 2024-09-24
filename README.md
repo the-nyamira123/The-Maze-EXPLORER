@@ -60,5 +60,11 @@ You can now run your program using ./maze (or maze.exe on Windows).
 ## Demo
 
 ![The Maze Demo](./images/demo.gif)
+## links
+https://www.linkedin.com/in/nathan-nyamira-b91203285/ 
+https://www.linkedin.com/pulse/maze-explorer-3d-journey-through-code-introduction-nathan-nyamira-cpaif/
+https://studio.youtube.com/channel/UCkGfo7wXkSg11LBsBlFoCkg/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D
+
+
 
 
